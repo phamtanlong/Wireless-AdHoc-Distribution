@@ -14,8 +14,10 @@ Ta cần có 3 file:
 
 1/ File HTML là trang web chứa đường dẫn để install lên thiết bị.
 Cấu trúc file tuỳ ý, chỉ cần có 1 đoạn chứa đường dẫn download như sau:
+<code>
 <a href="itms-services://?action=download-manifest&amp;
     url=http://www.bitart.com/WirelessAdHocDemo/WirelessAdHocDemo.plist">
     click this link to install
 </a>
+<code>
 
